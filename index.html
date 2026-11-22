@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Indraprastha by Pankti — Delhi Kitchen in Baner, Pune</title>
+  <meta name="description" content="Indraprastha by Pankti — homestyle Old Delhi flavours in a lantern-lit courtyard at Veerbhadra Nagar, Baner, Pune. Open daily 9 AM – 11 PM. Reserve your table.">
+  <meta name="theme-color" content="#0b0907">
+
+  <meta property="og:type" content="restaurant">
+  <meta property="og:title" content="Indraprastha by Pankti — Ghar ka swaad, apno ke saath">
+  <meta property="og:description" content="Old Delhi classics served beneath the lights of our courtyard tree in Baner, Pune.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="assets/img/courtyard-tree.webp" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Reusable ornament -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="orn" viewBox="0 0 220 24">
+      <path d="M0 12h86" stroke="currentColor" stroke-width="1"/>
+      <path d="M134 12h86" stroke="currentColor" stroke-width="1"/>
+      <path d="M110 2l10 10-10 10-10-10z" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <path d="M110 7l5 5-5 5-5-5z" fill="currentColor"/>
+      <circle cx="92" cy="12" r="2" fill="currentColor"/>
+      <circle cx="128" cy="12" r="2" fill="currentColor"/>
+    </symbol>
+  </svg>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="brand" href="#home" aria-label="Indraprastha by Pankti — home">
+        <img src="assets/img/logo-round.webp" alt="" width="46" height="46">
+        <span class="brand__text">
+          <span class="brand__name">Indraprastha</span>
+          <span class="brand__sub">by Pankti</span>
+        </span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#home" data-nav>Home</a>
+        <a href="#about" data-nav>About</a>
+        <a href="#menu" data-nav>Menu</a>
+        <a href="#gallery" data-nav>Gallery</a>
+        <a href="#reservations" data-nav>Reservations</a>
+        <a href="#contact" data-nav>Contact</a>
+      </nav>
+      <a class="btn btn--gold btn--sm nav__cta" href="#reservations">Reserve</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <nav aria-label="Mobile">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#reservations">Reservations</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="drawer__foot">Open daily · 9 AM – 11 PM<br>45, Veerbhadra Nagar Rd, Baner, Pune</p>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true">
+        <img src="assets/img/courtyard-tree.webp" alt="" width="1360" height="1020" fetchpriority="high">
+      </div>
+      <div class="hero__veil" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <img class="hero__seal rise" style="--d:.1s" src="assets/img/logo-round.webp" alt="Indraprastha by Pankti crest" width="120" height="120">
+        <p class="eyebrow rise" style="--d:.25s">A Delhi Kitchen &nbsp;·&nbsp; Baner, Pune</p>
+        <h1 class="hero__title">
+          <span class="hero__hindi rise" style="--d:.35s" lang="hi">इंद्रप्रस्थ</span>
+          <span class="hero__name rise" style="--d:.45s">Indraprastha</span>
+          <span class="hero__by rise" style="--d:.6s">by Pankti</span>
+        </h1>
+        <svg class="orn rise" style="--d:.7s" aria-hidden="true"><use href="#orn"/></svg>
+        <p class="hero__tag rise" style="--d:.8s">
+          <em>Ghar ka swaad, apno ke saath.</em><br>
+          The flavours of Old Delhi, served beneath the glowing branches of our courtyard tree.
+        </p>
+        <div class="hero__cta rise" style="--d:.95s">
+          <a class="btn btn--gold" href="#reservations">Reserve a Table</a>
+          <a class="btn btn--ghost" href="#menu">Explore the Menu</a>
+        </div>
+        <p class="hero__meta rise" style="--d:1.1s">
+          <span class="status" data-open-status>Open daily</span>
+          <span class="dot-sep" aria-hidden="true"></span>
+          9 AM – 11 PM, all week
+        </p>
+      </div>
+
+      <a class="hero__scroll" href="#about" aria-label="Scroll to About">
+        <span>Scroll</span><i aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Chole Bhature</span><b>✦</b><span>Dal Makhani</span><b>✦</b><span>Paneer Butter Masala</span><b>✦</b><span>Amritsari Kulcha</span><b>✦</b><span>Raj Kachori</span><b>✦</b><span>Kesar Lassi</span><b>✦</b><span>Rabri Jalebi</span><b>✦</b><span>Masala Chai</span><b>✦</b>
+        <span>Chole Bhature</span><b>✦</b><span>Dal Makhani</span><b>✦</b><span>Paneer Butter Masala</span><b>✦</b><span>Amritsari Kulcha</span><b>✦</b><span>Raj Kachori</span><b>✦</b><span>Kesar Lassi</span><b>✦</b><span>Rabri Jalebi</span><b>✦</b><span>Masala Chai</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="about__text">
+          <p class="label reveal">Our Story</p>
+          <h2 class="title reveal">A little piece of <em>Delhi</em>,<br>in the heart of Baner</h2>
+          <svg class="orn orn--left reveal" aria-hidden="true"><use href="#orn"/></svg>
+          <p class="lead reveal">
+            Indraprastha — the ancient name for Delhi — is our tribute to the city's lanes, its
+            dhabas and its home kitchens, where food is cooked slowly and shared generously.
+          </p>
+          <p class="reveal">
+            Brought to you by the team behind <strong>Pankti Foods &amp; Caterers</strong>, every plate
+            here follows one simple promise: <em>ghar ka swaad, apno ke saath</em> — the taste of home,
+            enjoyed with the people you love. From a lazy morning plate of chole bhature to a late
+            dinner of dal makhani and butter naan, we keep the recipes honest and the welcome warm.
+          </p>
+          <p class="reveal">
+            Pull up a chair in our courtyard, where strings of filament lights hang from a
+            living tree, and stay as long as you like.
+          </p>
+
+          <ul class="pillars">
+            <li class="reveal">
+              <span class="pillars__icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40"><path d="M6 22h28c0 7-6 12-14 12S6 29 6 22z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M14 16c0-3 3-3 3-6M20 16c0-3 3-3 3-6M26 16c0-3 3-3 3-6" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </span>
+              <h3>Homestyle Recipes</h3>
+              <p>Slow-cooked the way Delhi homes cook — no shortcuts.</p>
+            </li>
+            <li class="reveal">
+              <span class="pillars__icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40"><path d="M20 4v6M20 10c-5 0-8 4-8 9 0 4 3 7 8 7s8-3 8-7c0-5-3-9-8-9z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M17 30h6M18 34h4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+              </span>
+              <h3>Courtyard Dining</h3>
+              <p>Dine under a lantern-lit tree, from breakfast to late night.</p>
+            </li>
+            <li class="reveal">
+              <span class="pillars__icon" aria-hidden="true">
+                <svg viewBox="0 0 40 40"><circle cx="14" cy="15" r="5" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="27" cy="15" r="5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M5 33c1-6 5-9 9-9s8 3 9 9M18 33c1-6 5-9 9-9s8 3 9 9" fill="none" stroke="currentColor" stroke-width="1.4"/></svg>
+              </span>
+              <h3>Gatherings &amp; Catering</h3>
+              <p>Family get-togethers and events by Pankti Foods &amp; Caterers.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="about__media">
+          <figure class="frame frame--a reveal">
+            <img src="assets/img/canopy-lights.webp" alt="Filament string lights glowing under the canopy of the dining area" width="765" height="1020" loading="lazy" data-parallax="-0.06">
+          </figure>
+          <figure class="frame frame--b reveal">
+            <img src="assets/img/mural-corner.webp" alt="Dining tables beside the Indraprastha mural wall" width="765" height="1020" loading="lazy" data-parallax="0.05">
+          </figure>
+          <div class="about__badge reveal" aria-hidden="true">
+            <span>Now serving in</span>
+            <strong>Baner</strong>
+            <span>Pune</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="menu section" id="menu">
+      <div class="container">
+        <header class="section-head">
+          <p class="label reveal">The Menu</p>
+          <h2 class="title reveal">Delhi ke <em>Pakwaan</em></h2>
+          <svg class="orn reveal" aria-hidden="true"><use href="#orn"/></svg>
+          <p class="section-sub reveal">From the first cup of chai at nine to the last kulhad of lassi at night — a menu shaped by Delhi's homes and its legendary lanes.</p>
+        </header>
+
+        <div class="tabs reveal" role="tablist" aria-label="Menu categories" id="menuTabs"></div>
+        <div class="menu__panels" id="menuPanels"></div>
+
+        <p class="menu__note reveal">
+          <span class="veg" aria-hidden="true"></span> Vegetarian &nbsp;&nbsp;
+          <span class="sig-chip">Signature</span> House favourite &nbsp;·&nbsp;
+          Please tell us about any allergies when you order.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <header class="section-head">
+          <p class="label reveal">Gallery</p>
+          <h2 class="title reveal">An evening at <em>Indraprastha</em></h2>
+          <svg class="orn reveal" aria-hidden="true"><use href="#orn"/></svg>
+        </header>
+
+        <div class="g-grid">
+          <button class="g-item g-item--hero reveal" data-full="assets/img/courtyard-tree.webp" data-caption="The courtyard tree, lit for the evening">
+            <img src="assets/img/courtyard-tree.webp" alt="Courtyard tree wrapped in rope lights with string bulbs overhead" loading="lazy" width="1360" height="1020">
+            <span class="g-cap">The Courtyard Tree</span>
+          </button>
+          <button class="g-item g-item--tall reveal" data-full="assets/img/canopy-lights.webp" data-caption="A canopy of filament lights">
+            <img src="assets/img/canopy-lights.webp" alt="Rows of filament bulbs under the canopy" loading="lazy" width="765" height="1020">
+            <span class="g-cap">Under the Canopy</span>
+          </button>
+          <button class="g-item reveal" data-full="assets/img/dining-hall.webp" data-caption="The dining courtyard">
+            <img src="assets/img/dining-hall.webp" alt="Dining courtyard with black lattice chairs and marble-top tables" loading="lazy" width="1360" height="1020">
+            <span class="g-cap">The Dining Courtyard</span>
+          </button>
+          <button class="g-item reveal" data-full="assets/img/mural-corner.webp" data-caption="The Indraprastha mural wall">
+            <img src="assets/img/mural-corner.webp" alt="Tables in front of the hand-painted Indraprastha mural" loading="lazy" width="765" height="1020">
+            <span class="g-cap">The Mural Wall</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <!-- Real Google reviews (verbatim excerpts). Update by editing these cards. -->
+    <section class="reviews section" id="reviews">
+      <div class="container">
+        <header class="section-head">
+          <p class="label reveal">Guest Reviews</p>
+          <h2 class="title reveal">Loved by our <em>guests</em></h2>
+          <svg class="orn reveal" aria-hidden="true"><use href="#orn"/></svg>
+        </header>
+
+        <div class="rv-top">
+          <aside class="rv-score reveal" aria-label="Google rating">
+            <p class="rv-score__num" data-rating>4.6</p>
+            <div class="stars stars--lg" data-rating-stars style="--rating:4.6" aria-hidden="true"></div>
+            <p class="rv-score__count">Based on <strong data-review-count>27</strong> Google reviews</p>
+            <a class="btn btn--ghost btn--sm" data-google-reviews target="_blank" rel="noopener" href="#">Read all on Google</a>
+          </aside>
+
+          <figure class="rv-feature reveal">
+            <span class="rv-quote-mark" aria-hidden="true">“</span>
+            <blockquote>
+              The food here is truly delicious and beautifully served! The atmosphere is wonderfully cool and comfortable for dining. On top of that, the owners make you feel so welcome — they take the time to explain their cooking process and the unique flavors of each dish. Highly recommended!
+            </blockquote>
+            <figcaption class="rv-author">
+              <span class="rv-avatar" aria-hidden="true">JS</span>
+              <span><strong>Jagath S.</strong><small>Local Guide · Google review · Nov 2026</small></span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="rv-grid">
+          <figure class="rv-card reveal">
+            <div class="stars" style="--rating:5" role="img" aria-label="5 out of 5 stars"></div>
+            <span class="rv-tag">Dine-in · Lunch</span>
+            <blockquote>I had lunch at Indraprastha Pankti and loved it.. Started with Hariyali Paneer Tikka, which was absolutely delicious. The Veg Thali was amazing — Laccha Paratha, Rice, Dal Makhani, Soya Masala and Mix Veg, everything tasted perfect. Highly recommended for North Indian food.</blockquote>
+            <figcaption class="rv-author">
+              <span class="rv-avatar" aria-hidden="true">SK</span>
+              <span><strong>Swapnil K.</strong><small>Local Guide · Nov 2026</small></span>
+            </figcaption>
+          </figure>
+
+          <figure class="rv-card reveal">
+            <div class="stars" style="--rating:5" role="img" aria-label="5 out of 5 stars"></div>
+            <span class="rv-tag">Corporate catering</span>
+            <blockquote>On behalf of V21 Group of Ventures, we would like to appreciate your excellent service. We ordered 60 lunch boxes… the food was delicious. The quality, taste, and packaging were outstanding. Everyone enjoyed the meal.</blockquote>
+            <figcaption class="rv-author">
+              <span class="rv-avatar" aria-hidden="true">AP</span>
+              <span><strong>Ajay P.</strong><small>Local Guide · Nov 2026</small></span>
+            </figcaption>
+          </figure>
+
+          <figure class="rv-card reveal">
+            <div class="stars" style="--rating:5" role="img" aria-label="5 out of 5 stars"></div>
+            <span class="rv-tag">Food 5/5 · Service 5/5 · Atmosphere 4/5</span>
+            <blockquote>Authentic tastes. Amazing in service. Highly recommended to individual as well as families.</blockquote>
+            <figcaption class="rv-author">
+              <span class="rv-avatar" aria-hidden="true">AY</span>
+              <span><strong>Ashishkumar Y.</strong><small>Google review · Nov 2026</small></span>
+            </figcaption>
+          </figure>
+
+          <figure class="rv-card reveal">
+            <div class="stars" style="--rating:5" role="img" aria-label="5 out of 5 stars"></div>
+            <span class="rv-tag">Dine-in · Dinner</span>
+            <blockquote>Today we just wanted to try out some outdoor food and went to this shop for the first time. The food was amazing and service is great.</blockquote>
+            <figcaption class="rv-author">
+              <span class="rv-avatar" aria-hidden="true">J</span>
+              <span><strong>Joyal</strong><small>Local Guide · Nov 2026</small></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESERVATIONS ============ -->
+    <section class="reserve section" id="reservations">
+      <div class="reserve__bg" aria-hidden="true"><img src="assets/img/dining-hall.webp" alt="" loading="lazy"></div>
+      <div class="container reserve__grid">
+        <div class="reserve__intro">
+          <p class="label reveal">Reservations</p>
+          <h2 class="title reveal">Your table <em>awaits</em></h2>
+          <svg class="orn orn--left reveal" aria-hidden="true"><use href="#orn"/></svg>
+          <p class="reveal">Tell us when you're coming and we'll keep a table ready under the lights. Your request is sent to us on WhatsApp, and we'll confirm shortly.</p>
+
+          <ul class="reserve__facts reveal">
+            <li><strong>Hours</strong><span>Every day, 9 AM – 11 PM</span></li>
+            <li><strong>Last seating</strong><span>10:30 PM</span></li>
+            <li><strong>Large groups</strong><span>Parties of 12+, birthdays and family functions — call us, or ask about catering by Pankti Foods &amp; Caterers.</span></li>
+          </ul>
+
+          <a class="btn btn--ghost reveal" data-phone-link data-needs-phone href="#">Call to Reserve</a>
+        </div>
+
+        <form class="r-form reveal" id="reserveForm" novalidate>
+          <h3 class="r-form__title">Request a Table</h3>
+          <div class="r-row">
+            <label class="field">
+              <span>Full name</span>
+              <input type="text" name="name" autocomplete="name" required placeholder="Your name">
+            </label>
+            <label class="field">
+              <span>Mobile number</span>
+              <input type="tel" name="phone" autocomplete="tel" inputmode="tel" required placeholder="+91 98xxxxxxxx" pattern="[0-9+\s\-]{10,15}">
+            </label>
+          </div>
+          <div class="r-row r-row--3">
+            <label class="field">
+              <span>Date</span>
+              <input type="date" name="date" required id="rDate">
+            </label>
+            <label class="field">
+              <span>Time</span>
+              <select name="time" required id="rTime"></select>
+            </label>
+            <label class="field">
+              <span>Guests</span>
+              <select name="guests" required>
+                <option value="1">1 guest</option>
+                <option value="2" selected>2 guests</option>
+                <option value="3">3 guests</option>
+                <option value="4">4 guests</option>
+                <option value="5">5 guests</option>
+                <option value="6">6 guests</option>
+                <option value="8">7 – 8 guests</option>
+                <option value="10">9 – 11 guests</option>
+                <option value="12+">12+ guests</option>
+              </select>
+            </label>
+          </div>
+          <label class="field">
+            <span>Occasion <small>(optional)</small></span>
+            <select name="occasion">
+              <option value="">Just dinner</option>
+              <option>Birthday</option>
+              <option>Anniversary</option>
+              <option>Family gathering</option>
+              <option>Business meal</option>
+              <option>Breakfast / brunch</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Special requests <small>(optional)</small></span>
+            <textarea name="notes" rows="3" placeholder="Seating near the tree, high chair, allergies…"></textarea>
+          </label>
+          <button class="btn btn--gold btn--block" type="submit">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg>
+            Send Request on WhatsApp
+          </button>
+          <p class="r-form__msg" id="rMsg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <header class="section-head">
+          <p class="label reveal">Contact</p>
+          <h2 class="title reveal">Come, <em>visit us</em></h2>
+          <svg class="orn reveal" aria-hidden="true"><use href="#orn"/></svg>
+        </header>
+
+        <div class="c-grid">
+          <article class="c-card reveal">
+            <h3>Find Us</h3>
+            <p>Indraprastha by Pankti<br>45, Veerbhadra Nagar Rd<br>Veerbhadra Nagar, Baner<br>Pune, Maharashtra 411069</p>
+            <a class="link-arrow" id="directionsLink" target="_blank" rel="noopener" href="#">Get directions</a>
+          </article>
+
+          <article class="c-card reveal">
+            <h3>Talk to Us</h3>
+            <p data-needs-phone><a data-phone-link href="#" class="c-phone"></a></p>
+            <p data-needs-email><a data-email-link href="#"></a></p>
+            <p class="muted" data-no-contact>Phone and email details coming soon — reserve via the form, or simply walk in.</p>
+            <a class="link-arrow" data-whatsapp-link data-needs-phone target="_blank" rel="noopener" href="#">Message on WhatsApp</a>
+          </article>
+
+          <article class="c-card reveal">
+            <h3>Opening Hours</h3>
+            <table class="hours" id="hoursTable">
+              <tbody>
+                <tr data-day="1"><th>Monday</th><td>9 AM – 11 PM</td></tr>
+                <tr data-day="2"><th>Tuesday</th><td>9 AM – 11 PM</td></tr>
+                <tr data-day="3"><th>Wednesday</th><td>9 AM – 11 PM</td></tr>
+                <tr data-day="4"><th>Thursday</th><td>9 AM – 11 PM</td></tr>
+                <tr data-day="5"><th>Friday</th><td>9 AM – 11 PM</td></tr>
+                <tr data-day="6"><th>Saturday</th><td>9 AM – 11 PM</td></tr>
+                <tr data-day="0"><th>Sunday</th><td>9 AM – 11 PM</td></tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+
+        <div class="map reveal">
+          <iframe id="mapFrame" title="Map showing Indraprastha by Pankti, Baner, Pune" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="assets/img/logo-round.webp" alt="Indraprastha by Pankti" width="96" height="96" loading="lazy">
+        <p class="footer__tag"><em>Ghar ka swaad, apno ke saath.</em></p>
+        <p class="muted">A venture of Pankti Foods &amp; Caterers.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#reservations">Reservations</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>45, Veerbhadra Nagar Rd, Baner<br>Pune, Maharashtra 411069</p>
+        <p>Open daily<br>9 AM – 11 PM</p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <ul class="socials">
+          <li data-needs-instagram><a data-instagram-link target="_blank" rel="noopener" href="#">Instagram</a></li>
+          <li data-needs-phone><a data-whatsapp-link target="_blank" rel="noopener" href="#">WhatsApp</a></li>
+          <li><a id="footerMapLink" target="_blank" rel="noopener" href="#">Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__base">
+      <p>© <span id="year"></span> Indraprastha by Pankti · Pankti Foods &amp; Caterers. All rights reserved.</p>
+      <a href="#home" class="to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Mobile action bar -->
+  <div class="mbar" id="mbar">
+    <a href="#menu">Menu</a>
+    <a data-phone-link data-needs-phone href="#">Call</a>
+    <a href="#reservations" class="mbar__cta">Reserve</a>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lb-close" aria-label="Close">×</button>
+    <button class="lb-nav lb-prev" aria-label="Previous image">‹</button>
+    <figure>
+      <img id="lbImg" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lb-nav lb-next" aria-label="Next image">›</button>
+  </div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/menu-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
